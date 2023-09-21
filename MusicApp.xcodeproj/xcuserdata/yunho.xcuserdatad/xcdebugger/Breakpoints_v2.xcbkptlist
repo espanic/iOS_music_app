@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6475BBB2-6988-4A5B-94A1-E203AFD728FD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F133BBD8-1784-4B23-A2EC-9919809CEE4C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CustomError"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7136786F-E4AB-41F9-8153-BA1731FAA387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getMusic(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7136786F-E4AB-41F9-8153-BA1731FAA387 - e4c6165ac1af2012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "7136786F-E4AB-41F9-8153-BA1731FAA387 - e4c6165ac1af2012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3D78A4F-DB44-468B-ADB7-141AE9BBB3AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getMusic(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3D78A4F-DB44-468B-ADB7-141AE9BBB3AF - e4c6165ac1af20f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "A3D78A4F-DB44-468B-ADB7-141AE9BBB3AF - e4c6165ac1af20f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "532">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DA24FA5-F350-4EE2-B4EF-FB8B08372E06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getMusic(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DA24FA5-F350-4EE2-B4EF-FB8B08372E06 - e4c6165ac1af21cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "1DA24FA5-F350-4EE2-B4EF-FB8B08372E06 - e4c6165ac1af21cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1724AB94-7BBD-4BC1-872B-427DCDEEA250"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getMusic(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1724AB94-7BBD-4BC1-872B-427DCDEEA250 - 79bf78b4baae9b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "1724AB94-7BBD-4BC1-872B-427DCDEEA250 - 79bf78b4baae9b85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B35D0AA5-BC85-4084-BD11-2D215241C0B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicApp/Network/MusicApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getMusic(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B35D0AA5-BC85-4084-BD11-2D215241C0B5 - e4c6165ac1af212c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "B35D0AA5-BC85-4084-BD11-2D215241C0B5 - e4c6165ac1af212c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MusicApp.MusicData, Alamofire.AFError&gt;) -&gt; () in MusicApp.MusicApi.getMusic(searchTerm: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;MusicApp.Music&gt;, MusicApp.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MusicApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunho/myProject/iphone_practice/uikit_basics/MusicApp/MusicApp/Network/MusicApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

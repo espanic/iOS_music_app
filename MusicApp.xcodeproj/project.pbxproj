@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD75966F2ABC101700ACAF5E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CD75966E2ABC101700ACAF5E /* Alamofire */; };
+		CD7F051D2ABC93E3005CBABA /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F051C2ABC93E3005CBABA /* Music.swift */; };
+		CD7F051F2ABC9424005CBABA /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F051E2ABC9424005CBABA /* constants.swift */; };
+		CD7F05212ABC95AE005CBABA /* MusicApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F05202ABC95AE005CBABA /* MusicApi.swift */; };
 		CDCF2AF92ABB22BC00B02634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF2AF82ABB22BC00B02634 /* AppDelegate.swift */; };
 		CDCF2AFB2ABB22BC00B02634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF2AFA2ABB22BC00B02634 /* SceneDelegate.swift */; };
-		CDCF2AFD2ABB22BC00B02634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF2AFC2ABB22BC00B02634 /* ViewController.swift */; };
-		CDCF2B002ABB22BC00B02634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF2AFE2ABB22BC00B02634 /* Main.storyboard */; };
+		CDCF2AFD2ABB22BC00B02634 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF2AFC2ABB22BC00B02634 /* MainViewController.swift */; };
 		CDCF2B022ABB22BC00B02634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCF2B012ABB22BC00B02634 /* Assets.xcassets */; };
 		CDCF2B052ABB22BC00B02634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF2B032ABB22BC00B02634 /* LaunchScreen.storyboard */; };
+		CDCF2B132ABB271800B02634 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF2B122ABB271800B02634 /* MusicCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD7F051C2ABC93E3005CBABA /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		CD7F051E2ABC9424005CBABA /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		CD7F05202ABC95AE005CBABA /* MusicApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApi.swift; sourceTree = "<group>"; };
 		CDCF2AF52ABB22BC00B02634 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCF2AF82ABB22BC00B02634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCF2AFA2ABB22BC00B02634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDCF2AFC2ABB22BC00B02634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDCF2AFF2ABB22BC00B02634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCF2AFC2ABB22BC00B02634 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CDCF2B012ABB22BC00B02634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDCF2B042ABB22BC00B02634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDCF2B062ABB22BC00B02634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF2B122ABB271800B02634 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD75966F2ABC101700ACAF5E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +64,58 @@
 		CDCF2AF72ABB22BC00B02634 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				CDCF2B112ABB23A500B02634 /* Controllers */,
+				CDCF2B102ABB239800B02634 /* Views */,
+				CDCF2B0F2ABB238A00B02634 /* Models */,
+				CDCF2B0E2ABB238000B02634 /* Network */,
+				CDCF2B0C2ABB236A00B02634 /* Helpers */,
 				CDCF2AF82ABB22BC00B02634 /* AppDelegate.swift */,
 				CDCF2AFA2ABB22BC00B02634 /* SceneDelegate.swift */,
-				CDCF2AFC2ABB22BC00B02634 /* ViewController.swift */,
-				CDCF2AFE2ABB22BC00B02634 /* Main.storyboard */,
 				CDCF2B012ABB22BC00B02634 /* Assets.xcassets */,
 				CDCF2B032ABB22BC00B02634 /* LaunchScreen.storyboard */,
 				CDCF2B062ABB22BC00B02634 /* Info.plist */,
 			);
 			path = MusicApp;
+			sourceTree = "<group>";
+		};
+		CDCF2B0C2ABB236A00B02634 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F051E2ABC9424005CBABA /* constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CDCF2B0E2ABB238000B02634 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F05202ABC95AE005CBABA /* MusicApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CDCF2B0F2ABB238A00B02634 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F051C2ABC93E3005CBABA /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDCF2B102ABB239800B02634 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF2B122ABB271800B02634 /* MusicCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDCF2B112ABB23A500B02634 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF2AFC2ABB22BC00B02634 /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,9 @@
 			dependencies = (
 			);
 			name = MusicApp;
+			packageProductDependencies = (
+				CD75966E2ABC101700ACAF5E /* Alamofire */,
+			);
 			productName = MusicApp;
 			productReference = CDCF2AF52ABB22BC00B02634 /* MusicApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +165,9 @@
 				Base,
 			);
 			mainGroup = CDCF2AEC2ABB22BB00B02634;
+			packageReferences = (
+				CD75966D2ABC101700ACAF5E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = CDCF2AF62ABB22BC00B02634 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +184,6 @@
 			files = (
 				CDCF2B052ABB22BC00B02634 /* LaunchScreen.storyboard in Resources */,
 				CDCF2B022ABB22BC00B02634 /* Assets.xcassets in Resources */,
-				CDCF2B002ABB22BC00B02634 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDCF2AFD2ABB22BC00B02634 /* ViewController.swift in Sources */,
+				CDCF2AFD2ABB22BC00B02634 /* MainViewController.swift in Sources */,
 				CDCF2AF92ABB22BC00B02634 /* AppDelegate.swift in Sources */,
+				CD7F051D2ABC93E3005CBABA /* Music.swift in Sources */,
+				CDCF2B132ABB271800B02634 /* MusicCell.swift in Sources */,
 				CDCF2AFB2ABB22BC00B02634 /* SceneDelegate.swift in Sources */,
+				CD7F05212ABC95AE005CBABA /* MusicApi.swift in Sources */,
+				CD7F051F2ABC9424005CBABA /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDCF2AFE2ABB22BC00B02634 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDCF2AFF2ABB22BC00B02634 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDCF2B032ABB22BC00B02634 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +344,9 @@
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunhoCreative.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +375,9 @@
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunhoCreative.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD75966D2ABC101700ACAF5E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD75966E2ABC101700ACAF5E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD75966D2ABC101700ACAF5E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CDCF2AED2ABB22BB00B02634 /* Project object */;
 }
